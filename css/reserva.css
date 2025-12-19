@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+}
+
+.grid-head{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #00AAFF;
+    align-items: center;
+    padding: 1%;
+}
+
+.grid-head-content img{
+    height: 100px;
+}
+
+.grid-head-content a{
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.grid-foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    background-color: #00AAFF;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.grid-foot-content{
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.reservar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+.reservar button{
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    padding: 1%;
+    margin-top: 3%;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.content-form input{
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #A6A6A6;
+    border-radius: 10px;
+    width: 600px;
+    height: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #D9D9D9;
+}
+
+.content-form label{
+    font-size: 18px;
+    font-family: serif;
+}
+
+.checks input{
+    width: 10px;
+    height: 10px;
+}

@@ -1,0 +1,92 @@
+body{
+    margin: 0%;
+}
+
+.grid-head{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #00AAFF;
+    align-items: center;
+    padding: 1%;
+}
+
+.grid-head-content img{
+    height: 100px;
+}
+
+.grid-head-content a{
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.grid-foot{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #00AAFF;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.grid-foot-content{
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.contenido{
+    display: flex
+}
+
+.plato_title{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.plato_description{
+    margin-bottom: 10px;
+}
+.plato_precio{
+    color: #00AAFF;
+    justify-content: top;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.image1 img{
+    max-width: 70%;
+    max-height: 100%;
+    border-radius: 40px;
+    margin-left: 25%;
+}
+
+.image2 img{
+    max-width: 75%;
+    max-height: 100%;
+    border-radius: 40px;
+    margin-right: 5%;
+}
+
+.image3 img{
+    max-width: 100%;
+    max-height: 90%;
+    border-radius: 40px;
+    margin-left: 5%;
+}
